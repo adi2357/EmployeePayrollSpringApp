@@ -22,7 +22,7 @@ public class EmployeePayrollService implements IEmployeePayrollService {
 	public List<EmployeePayrollData> getEmployeePayrollData() {
 		employeeDataList.clear();
 		employeeRepository.findAll().forEach(employee -> employeeDataList.add(employee));
-		 return employeeDataList;
+		 return (List<EmployeePayrollData>) employeeRepository.findAll();
 	}
 
 	@Override
@@ -32,7 +32,7 @@ public class EmployeePayrollService implements IEmployeePayrollService {
 
 	@Override
 	public EmployeePayrollData createEmployeePayrollData(EmployeePayrollDTO employeePayrollDTO) {
-		EmployeePayrollData employeeData = new EmployeePayrollData(employeePayrollDTO.name, employeePayrollDTO.salary);
+		EmployeePayrollData employeeData = new EmployeePayrollData(employeePayrollDTO);
 		employeeData = employeeRepository.save(employeeData);
 		employeeDataList.add(employeeData);
 		return employeeData;
@@ -46,6 +46,11 @@ public class EmployeePayrollService implements IEmployeePayrollService {
 			deleteEmployeePayrolllData(empId);
 			employeeData.setName(employeePayrollDTO.name);
 			employeeData.setSalary(employeePayrollDTO.salary);
+			employeeData.setGender(employeePayrollDTO.gender);
+			employeeData.setDepartments(employeePayrollDTO.departments);
+			employeeData.setNotes(employeePayrollDTO.notes);
+			employeeData.setProfilePicture(employeePayrollDTO.profilePicture);
+			employeeData.setStartDate(employeePayrollDTO.startDate);
 			employeeData = employeeRepository.save(employeeData);
 			employeeDataList.add(employeeData);
 		}

@@ -1,0 +1,779 @@
+[2020-12-08T08:38:41.041Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting EmployeePayrollAppApplication using Java 11.0.8 on MSI with PID 23136 (C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp\target\classes started by aaada in C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp)
+[2020-12-08T08:38:41.041Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2020-12-08T08:38:42.042Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-08T08:38:42.042Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ] Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+[2020-12-08T08:38:42.042Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2020-12-08T08:38:42.042Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2020-12-08T08:38:42.042Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-08T08:38:42.042Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-12-08T08:38:42.042Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 318 ms
+[2020-12-08T08:38:42.042Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-12-08T08:38:42.042Z] [org.hibernate.jpa.internal.util.LogHelper] [task-1] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-08T08:38:42.042Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [110] [INFO ] HikariPool-3 - Starting...
+[2020-12-08T08:38:42.042Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [123] [INFO ] HikariPool-3 - Start completed.
+[2020-12-08T08:38:42.042Z] [org.hibernate.dialect.Dialect] [task-1] [170] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-08T08:38:42.042Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-08T08:38:42.042Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [task-1] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-12-08T08:38:42.042Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [task-1] [434] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-08T08:38:42.042Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [task-2] [58] [INFO ] LiveReload server is running on port 35729
+[2020-12-08T08:38:42.042Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-08T08:38:42.042Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [51] [INFO ] Triggering deferred initialization of Spring Data repositories…
+[2020-12-08T08:38:42.042Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [55] [INFO ] Spring Data repositories initialized!
+[2020-12-08T08:38:42.042Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started EmployeePayrollAppApplication in 0.659 seconds (JVM running for 31761.925)
+[2020-12-08T08:38:42.042Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2020-12-08T08:38:42.042Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting EmployeePayrollAppApplication using Java 11.0.8 on MSI with PID 3608 (C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp\target\classes started by aaada in C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp)
+[2020-12-08T08:38:42.042Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2020-12-08T08:38:42.042Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.1.6.Final
+[2020-12-08T08:38:42.042Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-12-08T08:38:42.042Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-12-08T08:38:43.043Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-08T08:38:43.043Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ] Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+[2020-12-08T08:38:43.043Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2020-12-08T08:38:44.044Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-08T08:38:44.044Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2020-12-08T08:38:44.044Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-08T08:38:44.044Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-12-08T08:38:44.044Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 1366 ms
+[2020-12-08T08:38:44.044Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-12-08T08:38:44.044Z] [org.hibernate.jpa.internal.util.LogHelper] [task-1] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-08T08:38:44.044Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-08T08:38:44.044Z] [org.hibernate.Version] [task-1] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.23.Final
+[2020-12-08T08:38:44.044Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [task-1] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2020-12-08T08:38:44.044Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [110] [INFO ] HikariPool-1 - Starting...
+[2020-12-08T08:38:44.044Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [61] [WARN ] Unable to start LiveReload server
+[2020-12-08T08:38:44.044Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-08T08:38:44.044Z] [org.springframework.context.support.AbstractApplicationContext] [restartedMain] [596] [WARN ] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+[2020-12-08T08:38:44.044Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [648] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-08T08:38:44.044Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [123] [INFO ] HikariPool-1 - Start completed.
+[2020-12-08T08:38:44.044Z] [org.hibernate.dialect.Dialect] [task-1] [170] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-08T08:38:45.045Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [task-1] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-12-08T08:38:45.045Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [task-1] [434] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-08T08:38:45.045Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-12-08T08:38:45.045Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2020-12-08T08:38:45.045Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2020-12-08T08:38:45.045Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Pausing ProtocolHandler ["http-nio-8080"]
+[2020-12-08T08:38:45.045Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Stopping service [Tomcat]
+[2020-12-08T08:38:45.045Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Stopping ProtocolHandler ["http-nio-8080"]
+[2020-12-08T08:38:45.045Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Destroying ProtocolHandler ["http-nio-8080"]
+[2020-12-08T08:38:45.045Z] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [restartedMain] [136] [INFO ] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-12-08T08:38:45.045Z] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [restartedMain] [40] [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[2020-12-08T08:39:59.059Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-12-08T08:39:59.059Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2020-12-08T08:39:59.059Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2020-12-08T08:39:59.059Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-1] [20] [INFO ] Client Request Method : GET
+[2020-12-08T08:39:59.059Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-1] [27] [INFO ] Server Response Status Code: 404
+[2020-12-08T08:39:59.059Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-1] [20] [INFO ] Client Request Method : GET
+[2020-12-08T08:39:59.059Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-1] [27] [INFO ] Server Response Status Code: 404
+[2020-12-08T08:39:59.059Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-2] [20] [INFO ] Client Request Method : GET
+[2020-12-08T08:39:59.059Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-2] [27] [INFO ] Server Response Status Code: 404
+[2020-12-08T08:39:59.059Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-2] [20] [INFO ] Client Request Method : GET
+[2020-12-08T08:39:59.059Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-2] [27] [INFO ] Server Response Status Code: 404
+[2020-12-08T08:41:04.004Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-13] [648] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-08T08:41:04.004Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-13] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-12-08T08:41:04.004Z] [com.zaxxer.hikari.HikariDataSource] [Thread-13] [350] [INFO ] HikariPool-3 - Shutdown initiated...
+[2020-12-08T08:41:04.004Z] [com.zaxxer.hikari.HikariDataSource] [Thread-13] [352] [INFO ] HikariPool-3 - Shutdown completed.
+[2020-12-08T08:41:04.004Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting EmployeePayrollAppApplication using Java 11.0.8 on MSI with PID 23136 (C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp\target\classes started by aaada in C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp)
+[2020-12-08T08:41:04.004Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2020-12-08T08:41:04.004Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-08T08:41:05.005Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ] Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+[2020-12-08T08:41:05.005Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2020-12-08T08:41:05.005Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2020-12-08T08:41:05.005Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-08T08:41:05.005Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-12-08T08:41:05.005Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 308 ms
+[2020-12-08T08:41:05.005Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-12-08T08:41:05.005Z] [org.hibernate.jpa.internal.util.LogHelper] [task-1] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-08T08:41:05.005Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [110] [INFO ] HikariPool-4 - Starting...
+[2020-12-08T08:41:05.005Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [123] [INFO ] HikariPool-4 - Start completed.
+[2020-12-08T08:41:05.005Z] [org.hibernate.dialect.Dialect] [task-1] [170] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-08T08:41:05.005Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-08T08:41:05.005Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [task-1] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-12-08T08:41:05.005Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [task-1] [434] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-08T08:41:05.005Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [task-2] [58] [INFO ] LiveReload server is running on port 35729
+[2020-12-08T08:41:05.005Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-08T08:41:05.005Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [51] [INFO ] Triggering deferred initialization of Spring Data repositories…
+[2020-12-08T08:41:05.005Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [55] [INFO ] Spring Data repositories initialized!
+[2020-12-08T08:41:05.005Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started EmployeePayrollAppApplication in 0.559 seconds (JVM running for 31904.858)
+[2020-12-08T08:41:05.005Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2020-12-08T08:41:05.005Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting EmployeePayrollAppApplication using Java 11.0.8 on MSI with PID 2712 (C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp\target\classes started by aaada in C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp)
+[2020-12-08T08:41:05.005Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.1.6.Final
+[2020-12-08T08:41:05.005Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2020-12-08T08:41:05.005Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-12-08T08:41:05.005Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-12-08T08:41:06.006Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-08T08:41:06.006Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ] Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+[2020-12-08T08:41:06.006Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2020-12-08T08:41:06.006Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-08T08:41:06.006Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2020-12-08T08:41:06.006Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-08T08:41:07.007Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-12-08T08:41:07.007Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 1313 ms
+[2020-12-08T08:41:07.007Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-12-08T08:41:07.007Z] [org.hibernate.jpa.internal.util.LogHelper] [task-1] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-08T08:41:07.007Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to 
+[2020-12-08T08:41:15.015Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(21)-127.0.0.1] [159] [INFO ] Application shutdown requested.
+[2020-12-08T08:41:15.015Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [RMI TCP Connection(21)-127.0.0.1] [648] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-08T08:41:15.015Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(21)-127.0.0.1] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-12-08T08:41:15.015Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(21)-127.0.0.1] [350] [INFO ] HikariPool-4 - Shutdown initiated...
+[2020-12-08T08:41:15.015Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(21)-127.0.0.1] [352] [INFO ] HikariPool-4 - Shutdown completed.
+[2020-12-08T08:41:26.026Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.1.6.Final
+[2020-12-08T08:41:26.026Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting EmployeePayrollAppApplication using Java 11.0.8 on MSI with PID 19628 (C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp\target\classes started by aaada in C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp)
+[2020-12-08T08:41:26.026Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2020-12-08T08:41:26.026Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-12-08T08:41:26.026Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-12-08T08:41:26.026Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-08T08:41:26.026Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ] Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+[2020-12-08T08:41:27.027Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2020-12-08T08:41:27.027Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-08T08:41:27.027Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2020-12-08T08:41:27.027Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-08T08:41:27.027Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-12-08T08:41:27.027Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 1328 ms
+[2020-12-08T08:41:27.027Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-12-08T08:41:27.027Z] [org.hibernate.jpa.internal.util.LogHelper] [task-1] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-08T08:41:27.027Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-08T08:41:27.027Z] [org.hibernate.Version] [task-1] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.23.Final
+[2020-12-08T08:41:27.027Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [task-1] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2020-12-08T08:41:28.028Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [110] [INFO ] HikariPool-1 - Starting...
+[2020-12-08T08:41:28.028Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2020-12-08T08:41:28.028Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-08T08:41:28.028Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-08T08:41:28.028Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [51] [INFO ] Triggering deferred initialization of Spring Data repositories…
+[2020-12-08T08:41:28.028Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [123] [INFO ] HikariPool-1 - Start completed.
+[2020-12-08T08:41:28.028Z] [org.hibernate.dialect.Dialect] [task-1] [170] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-08T08:41:29.029Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [task-1] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-12-08T08:41:29.029Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [task-1] [434] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-08T08:41:29.029Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [55] [INFO ] Spring Data repositories initialized!
+[2020-12-08T08:41:29.029Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started EmployeePayrollAppApplication in 3.4 seconds (JVM running for 4.792)
+[2020-12-08T08:41:36.036Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-12-08T08:41:36.036Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2020-12-08T08:41:36.036Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [547] [INFO ] Completed initialization in 1 ms
+[2020-12-08T08:41:36.036Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-2] [20] [INFO ] Client Request Method : GET
+[2020-12-08T08:41:36.036Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-2] [27] [INFO ] Server Response Status Code: 200
+[2020-12-08T08:42:29.029Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-3] [20] [INFO ] Client Request Method : POST
+[2020-12-08T08:42:29.029Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-3] [27] [INFO ] Server Response Status Code: 200
+[2020-12-11T16:19:47.047Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting EmployeePayrollAppApplication using Java 11.0.8 on MSI with PID 24604 (C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp\target\classes started by aaada in C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp)
+[2020-12-11T16:19:47.047Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.1.6.Final
+[2020-12-11T16:19:47.047Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2020-12-11T16:19:47.047Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-12-11T16:19:47.047Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-12-11T16:19:47.047Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-11T16:19:47.047Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ] Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
+[2020-12-11T16:19:48.048Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2020-12-11T16:19:48.048Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-11T16:19:48.048Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2020-12-11T16:19:48.048Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-11T16:19:48.048Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-12-11T16:19:48.048Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 1376 ms
+[2020-12-11T16:19:48.048Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-12-11T16:19:48.048Z] [org.hibernate.jpa.internal.util.LogHelper] [task-1] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-11T16:19:48.048Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-11T16:19:48.048Z] [org.hibernate.Version] [task-1] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.23.Final
+[2020-12-11T16:19:49.049Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [task-1] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2020-12-11T16:19:49.049Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [110] [INFO ] HikariPool-1 - Starting...
+[2020-12-11T16:19:49.049Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2020-12-11T16:19:49.049Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-11T16:19:49.049Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-11T16:19:49.049Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [51] [INFO ] Triggering deferred initialization of Spring Data repositories…
+[2020-12-11T16:19:49.049Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [123] [INFO ] HikariPool-1 - Start completed.
+[2020-12-11T16:19:49.049Z] [org.hibernate.dialect.Dialect] [task-1] [170] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-11T16:19:50.050Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [task-1] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-12-11T16:19:50.050Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [task-1] [434] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-11T16:19:50.050Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [55] [INFO ] Spring Data repositories initialized!
+[2020-12-11T16:19:50.050Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started EmployeePayrollAppApplication in 3.722 seconds (JVM running for 5.245)
+[2020-12-11T16:20:22.022Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-12-11T16:20:22.022Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2020-12-11T16:20:22.022Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [547] [INFO ] Completed initialization in 1 ms
+[2020-12-11T16:20:22.022Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-2] [20] [INFO ] Client Request Method : GET
+[2020-12-11T16:20:23.023Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-2] [27] [INFO ] Server Response Status Code: 200
+[2020-12-11T16:21:32.032Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-4] [20] [INFO ] Client Request Method : PUT
+[2020-12-11T16:21:33.033Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-4] [27] [INFO ] Server Response Status Code: 200
+[2020-12-11T16:21:46.046Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-6] [20] [INFO ] Client Request Method : GET
+[2020-12-11T16:21:46.046Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-6] [27] [INFO ] Server Response Status Code: 200
+[2020-12-11T16:22:07.007Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-7] [20] [INFO ] Client Request Method : DELETE
+[2020-12-11T16:22:07.007Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-7] [27] [INFO ] Server Response Status Code: 200
+[2020-12-11T16:22:16.016Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-8] [20] [INFO ] Client Request Method : GET
+[2020-12-11T16:22:16.016Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-8] [27] [INFO ] Server Response Status Code: 200
+[2020-12-11T16:22:39.039Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(6)-127.0.0.1] [159] [INFO ] Application shutdown requested.
+[2020-12-11T16:22:39.039Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [RMI TCP Connection(6)-127.0.0.1] [648] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-11T16:22:39.039Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(6)-127.0.0.1] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-12-11T16:22:39.039Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(6)-127.0.0.1] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2020-12-11T16:22:40.040Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(6)-127.0.0.1] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2020-12-12T11:09:05.005Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting EmployeePayrollAppApplication using Java 11.0.8 on MSI with PID 15932 (C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp\target\classes started by aaada in C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp)
+[2020-12-12T11:09:05.005Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2020-12-12T11:09:05.005Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.1.6.Final
+[2020-12-12T11:09:05.005Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-12-12T11:09:05.005Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-12-12T11:09:06.006Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-12T11:09:06.006Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ] Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+[2020-12-12T11:09:07.007Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2020-12-12T11:09:07.007Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-12T11:09:07.007Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2020-12-12T11:09:07.007Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-12T11:09:07.007Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-12-12T11:09:07.007Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 1319 ms
+[2020-12-12T11:09:07.007Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-12-12T11:09:07.007Z] [org.hibernate.jpa.internal.util.LogHelper] [task-1] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-12T11:09:07.007Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-12T11:09:07.007Z] [org.hibernate.Version] [task-1] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.23.Final
+[2020-12-12T11:09:07.007Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [task-1] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2020-12-12T11:09:07.007Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [110] [INFO ] HikariPool-1 - Starting...
+[2020-12-12T11:09:07.007Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2020-12-12T11:09:07.007Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-12T11:09:07.007Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-12T11:09:07.007Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [51] [INFO ] Triggering deferred initialization of Spring Data repositories…
+[2020-12-12T11:09:07.007Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [123] [INFO ] HikariPool-1 - Start completed.
+[2020-12-12T11:09:08.008Z] [org.hibernate.dialect.Dialect] [task-1] [170] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-12T11:09:08.008Z] [org.springframework.context.support.AbstractApplicationContext] [restartedMain] [596] [WARN ] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository' defined in com.bridgelabz.employeepayrollapp.repository.EmployeeRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaMappingContext' while setting bean property 'mappingContext'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaMappingContext': Invocation of init method failed; nested exception is org.hibernate.AnnotationException: Use of @OneToMany or @ManyToMany targeting an unmapped class: com.bridgelabz.employeepayrollapp.model.EmployeePayrollData.departments[java.lang.String]
+[2020-12-12T11:09:08.008Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [648] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-12T11:09:08.008Z] [org.springframework.beans.factory.support.DisposableBeanAdapter] [restartedMain] [267] [WARN ] Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.AnnotationException: Use of @OneToMany or @ManyToMany targeting an unmapped class: com.bridgelabz.employeepayrollapp.model.EmployeePayrollData.departments[java.lang.String]
+[2020-12-12T11:09:08.008Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-12-12T11:09:08.008Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2020-12-12T11:09:08.008Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2020-12-12T11:09:08.008Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Pausing ProtocolHandler ["http-nio-8080"]
+[2020-12-12T11:09:08.008Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Stopping service [Tomcat]
+[2020-12-12T11:09:08.008Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Stopping ProtocolHandler ["http-nio-8080"]
+[2020-12-12T11:09:08.008Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Destroying ProtocolHandler ["http-nio-8080"]
+[2020-12-12T11:09:08.008Z] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [restartedMain] [136] [INFO ] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-12-12T11:09:08.008Z] [org.springframework.boot.SpringApplication] [restartedMain] [856] [ERROR] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository' defined in com.bridgelabz.employeepayrollapp.repository.EmployeeRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaMappingContext' while setting bean property 'mappingContext'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaMappingContext': Invocation of init method failed; nested exception is org.hibernate.AnnotationException: Use of @OneToMany or @ManyToMany targeting an unmapped class: com.bridgelabz.employeepayrollapp.model.EmployeePayrollData.departments[java.lang.String]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:342)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:113)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1691)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1436)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:608)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:671)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659)
+	at org.springframework.data.repository.config.DeferredRepositoryInitializationListener.onApplicationEvent(DeferredRepositoryInitializationListener.java:53)
+	at org.springframework.data.repository.config.DeferredRepositoryInitializationListener.onApplicationEvent(DeferredRepositoryInitializationListener.java:35)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:203)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:196)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:426)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:383)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:945)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.bridgelabz.employeepayrollapp.EmployeePayrollAppApplication.main(EmployeePayrollAppApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaMappingContext': Invocation of init method failed; nested exception is org.hibernate.AnnotationException: Use of @OneToMany or @ManyToMany targeting an unmapped class: com.bridgelabz.employeepayrollapp.model.EmployeePayrollData.departments[java.lang.String]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:609)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:330)
+	... 33 common frames omitted
+Caused by: org.hibernate.AnnotationException: Use of @OneToMany or @ManyToMany targeting an unmapped class: com.bridgelabz.employeepayrollapp.model.EmployeePayrollData.departments[java.lang.String]
+	at org.hibernate.cfg.annotations.CollectionBinder.bindManyToManySecondPass(CollectionBinder.java:1332)
+	at org.hibernate.cfg.annotations.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:870)
+	at org.hibernate.cfg.annotations.ListBinder$1.secondPass(ListBinder.java:87)
+	at org.hibernate.cfg.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:53)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1693)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1661)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:286)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[2020-12-12T11:17:27.027Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting EmployeePayrollAppApplication using Java 11.0.8 on MSI with PID 17032 (C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp\target\classes started by aaada in C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp)
+[2020-12-12T11:17:27.027Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.1.6.Final
+[2020-12-12T11:17:27.027Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2020-12-12T11:17:27.027Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-12-12T11:17:27.027Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-12-12T11:17:28.028Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-12T11:17:28.028Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ] Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+[2020-12-12T11:17:28.028Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2020-12-12T11:17:28.028Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-12T11:17:28.028Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2020-12-12T11:17:28.028Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-12T11:17:28.028Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-12-12T11:17:28.028Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 1298 ms
+[2020-12-12T11:17:28.028Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-12-12T11:17:28.028Z] [org.hibernate.jpa.internal.util.LogHelper] [task-1] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-12T11:17:29.029Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-12T11:17:29.029Z] [org.hibernate.Version] [task-1] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.23.Final
+[2020-12-12T11:17:29.029Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [task-1] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2020-12-12T11:17:29.029Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [110] [INFO ] HikariPool-1 - Starting...
+[2020-12-12T11:17:29.029Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2020-12-12T11:17:29.029Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-12T11:17:29.029Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-12T11:17:29.029Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [51] [INFO ] Triggering deferred initialization of Spring Data repositories…
+[2020-12-12T11:17:29.029Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [123] [INFO ] HikariPool-1 - Start completed.
+[2020-12-12T11:17:29.029Z] [org.hibernate.dialect.Dialect] [task-1] [170] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-12T11:17:29.029Z] [org.springframework.context.support.AbstractApplicationContext] [restartedMain] [596] [WARN ] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository' defined in com.bridgelabz.employeepayrollapp.repository.EmployeeRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaMappingContext' while setting bean property 'mappingContext'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaMappingContext': Invocation of init method failed; nested exception is org.hibernate.AnnotationException: Use of @OneToMany or @ManyToMany targeting an unmapped class: com.bridgelabz.employeepayrollapp.model.EmployeePayrollData.departments[java.lang.String]
+[2020-12-12T11:17:29.029Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [648] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-12T11:17:29.029Z] [org.springframework.beans.factory.support.DisposableBeanAdapter] [restartedMain] [267] [WARN ] Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.AnnotationException: Use of @OneToMany or @ManyToMany targeting an unmapped class: com.bridgelabz.employeepayrollapp.model.EmployeePayrollData.departments[java.lang.String]
+[2020-12-12T11:17:29.029Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-12-12T11:17:29.029Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2020-12-12T11:17:29.029Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2020-12-12T11:17:29.029Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Pausing ProtocolHandler ["http-nio-8080"]
+[2020-12-12T11:17:30.030Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Stopping service [Tomcat]
+[2020-12-12T11:17:30.030Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Stopping ProtocolHandler ["http-nio-8080"]
+[2020-12-12T11:17:30.030Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Destroying ProtocolHandler ["http-nio-8080"]
+[2020-12-12T11:17:30.030Z] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [restartedMain] [136] [INFO ] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-12-12T11:17:30.030Z] [org.springframework.boot.SpringApplication] [restartedMain] [856] [ERROR] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository' defined in com.bridgelabz.employeepayrollapp.repository.EmployeeRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaMappingContext' while setting bean property 'mappingContext'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaMappingContext': Invocation of init method failed; nested exception is org.hibernate.AnnotationException: Use of @OneToMany or @ManyToMany targeting an unmapped class: com.bridgelabz.employeepayrollapp.model.EmployeePayrollData.departments[java.lang.String]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:342)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:113)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1691)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1436)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:608)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:671)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659)
+	at org.springframework.data.repository.config.DeferredRepositoryInitializationListener.onApplicationEvent(DeferredRepositoryInitializationListener.java:53)
+	at org.springframework.data.repository.config.DeferredRepositoryInitializationListener.onApplicationEvent(DeferredRepositoryInitializationListener.java:35)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:203)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:196)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:426)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:383)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:945)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.bridgelabz.employeepayrollapp.EmployeePayrollAppApplication.main(EmployeePayrollAppApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaMappingContext': Invocation of init method failed; nested exception is org.hibernate.AnnotationException: Use of @OneToMany or @ManyToMany targeting an unmapped class: com.bridgelabz.employeepayrollapp.model.EmployeePayrollData.departments[java.lang.String]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:609)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:330)
+	... 33 common frames omitted
+Caused by: org.hibernate.AnnotationException: Use of @OneToMany or @ManyToMany targeting an unmapped class: com.bridgelabz.employeepayrollapp.model.EmployeePayrollData.departments[java.lang.String]
+	at org.hibernate.cfg.annotations.CollectionBinder.bindManyToManySecondPass(CollectionBinder.java:1332)
+	at org.hibernate.cfg.annotations.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:870)
+	at org.hibernate.cfg.annotations.ListBinder$1.secondPass(ListBinder.java:87)
+	at org.hibernate.cfg.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:53)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1693)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1661)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:286)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[2020-12-12T11:26:58.058Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.1.6.Final
+[2020-12-12T11:26:58.058Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting EmployeePayrollAppApplication using Java 11.0.8 on MSI with PID 6664 (C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp\target\classes started by aaada in C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp)
+[2020-12-12T11:26:58.058Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2020-12-12T11:26:58.058Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-12-12T11:26:58.058Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-12-12T11:26:59.059Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-12T11:26:59.059Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ] Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+[2020-12-12T11:26:59.059Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2020-12-12T11:26:59.059Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-12T11:26:59.059Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2020-12-12T11:26:59.059Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-12T11:26:59.059Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-12-12T11:26:59.059Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 1287 ms
+[2020-12-12T11:27:00.000Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-12-12T11:27:00.000Z] [org.hibernate.jpa.internal.util.LogHelper] [task-1] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-12T11:27:00.000Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-12T11:27:00.000Z] [org.hibernate.Version] [task-1] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.23.Final
+[2020-12-12T11:27:00.000Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [task-1] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2020-12-12T11:27:00.000Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [110] [INFO ] HikariPool-1 - Starting...
+[2020-12-12T11:27:00.000Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2020-12-12T11:27:00.000Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-12T11:27:00.000Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-12T11:27:00.000Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [51] [INFO ] Triggering deferred initialization of Spring Data repositories…
+[2020-12-12T11:27:00.000Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [123] [INFO ] HikariPool-1 - Start completed.
+[2020-12-12T11:27:00.000Z] [org.hibernate.dialect.Dialect] [task-1] [170] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-12T11:27:01.001Z] [org.springframework.context.support.AbstractApplicationContext] [restartedMain] [596] [WARN ] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository' defined in com.bridgelabz.employeepayrollapp.repository.EmployeeRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaMappingContext' while setting bean property 'mappingContext'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaMappingContext': Invocation of init method failed; nested exception is org.hibernate.AnnotationException: List/array has to be annotated with an @OrderColumn (or @IndexColumn): com.bridgelabz.employeepayrollapp.model.EmployeePayrollData.departments
+[2020-12-12T11:27:01.001Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [648] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-12T11:27:01.001Z] [org.springframework.beans.factory.support.DisposableBeanAdapter] [restartedMain] [267] [WARN ] Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.AnnotationException: List/array has to be annotated with an @OrderColumn (or @IndexColumn): com.bridgelabz.employeepayrollapp.model.EmployeePayrollData.departments
+[2020-12-12T11:27:01.001Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-12-12T11:27:01.001Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2020-12-12T11:27:01.001Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2020-12-12T11:27:01.001Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Pausing ProtocolHandler ["http-nio-8080"]
+[2020-12-12T11:27:01.001Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Stopping service [Tomcat]
+[2020-12-12T11:27:01.001Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Stopping ProtocolHandler ["http-nio-8080"]
+[2020-12-12T11:27:01.001Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Destroying ProtocolHandler ["http-nio-8080"]
+[2020-12-12T11:27:01.001Z] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [restartedMain] [136] [INFO ] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-12-12T11:27:01.001Z] [org.springframework.boot.SpringApplication] [restartedMain] [856] [ERROR] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository' defined in com.bridgelabz.employeepayrollapp.repository.EmployeeRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaMappingContext' while setting bean property 'mappingContext'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaMappingContext': Invocation of init method failed; nested exception is org.hibernate.AnnotationException: List/array has to be annotated with an @OrderColumn (or @IndexColumn): com.bridgelabz.employeepayrollapp.model.EmployeePayrollData.departments
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:342)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:113)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1691)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1436)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:608)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:671)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659)
+	at org.springframework.data.repository.config.DeferredRepositoryInitializationListener.onApplicationEvent(DeferredRepositoryInitializationListener.java:53)
+	at org.springframework.data.repository.config.DeferredRepositoryInitializationListener.onApplicationEvent(DeferredRepositoryInitializationListener.java:35)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:203)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:196)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:426)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:383)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:945)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.bridgelabz.employeepayrollapp.EmployeePayrollAppApplication.main(EmployeePayrollAppApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaMappingContext': Invocation of init method failed; nested exception is org.hibernate.AnnotationException: List/array has to be annotated with an @OrderColumn (or @IndexColumn): com.bridgelabz.employeepayrollapp.model.EmployeePayrollData.departments
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:609)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:330)
+	... 33 common frames omitted
+Caused by: org.hibernate.AnnotationException: List/array has to be annotated with an @OrderColumn (or @IndexColumn): com.bridgelabz.employeepayrollapp.model.EmployeePayrollData.departments
+	at org.hibernate.cfg.annotations.ListBinder.bindIndex(ListBinder.java:144)
+	at org.hibernate.cfg.annotations.ListBinder.access$000(ListBinder.java:42)
+	at org.hibernate.cfg.annotations.ListBinder$1.secondPass(ListBinder.java:101)
+	at org.hibernate.cfg.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:53)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1693)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1661)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:286)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[2020-12-12T11:29:33.033Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting EmployeePayrollAppApplication using Java 11.0.8 on MSI with PID 20092 (C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp\target\classes started by aaada in C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp)
+[2020-12-12T11:29:33.033Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.1.6.Final
+[2020-12-12T11:29:33.033Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2020-12-12T11:29:33.033Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-12-12T11:29:33.033Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-12-12T11:29:33.033Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-12T11:29:33.033Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ] Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+[2020-12-12T11:29:34.034Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2020-12-12T11:29:34.034Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-12T11:29:34.034Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2020-12-12T11:29:34.034Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-12T11:29:34.034Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-12-12T11:29:34.034Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 1349 ms
+[2020-12-12T11:29:34.034Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-12-12T11:29:34.034Z] [org.hibernate.jpa.internal.util.LogHelper] [task-1] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-12T11:29:34.034Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-12T11:29:34.034Z] [org.hibernate.Version] [task-1] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.23.Final
+[2020-12-12T11:29:34.034Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [task-1] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2020-12-12T11:29:34.034Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [110] [INFO ] HikariPool-1 - Starting...
+[2020-12-12T11:29:34.034Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2020-12-12T11:29:35.035Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-12T11:29:35.035Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-12T11:29:35.035Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [51] [INFO ] Triggering deferred initialization of Spring Data repositories…
+[2020-12-12T11:29:35.035Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [123] [INFO ] HikariPool-1 - Start completed.
+[2020-12-12T11:29:35.035Z] [org.hibernate.dialect.Dialect] [task-1] [170] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-12T11:29:36.036Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [task-1] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-12-12T11:29:36.036Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [task-1] [434] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-12T11:29:36.036Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [55] [INFO ] Spring Data repositories initialized!
+[2020-12-12T11:29:36.036Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started EmployeePayrollAppApplication in 4.108 seconds (JVM running for 5.523)
+[2020-12-12T11:30:15.015Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(3)-127.0.0.1] [159] [INFO ] Application shutdown requested.
+[2020-12-12T11:30:15.015Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [RMI TCP Connection(3)-127.0.0.1] [648] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-12T11:30:15.015Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(3)-127.0.0.1] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-12-12T11:30:15.015Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(3)-127.0.0.1] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2020-12-12T11:30:15.015Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(3)-127.0.0.1] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2020-12-12T11:35:52.052Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.1.6.Final
+[2020-12-12T11:35:52.052Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting EmployeePayrollAppApplication using Java 11.0.8 on MSI with PID 20200 (C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp\target\classes started by aaada in C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp)
+[2020-12-12T11:35:52.052Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2020-12-12T11:35:52.052Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-12-12T11:35:52.052Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-12-12T11:35:52.052Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-12T11:35:52.052Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ] Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+[2020-12-12T11:35:53.053Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2020-12-12T11:35:53.053Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-12T11:35:53.053Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2020-12-12T11:35:53.053Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-12T11:35:53.053Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-12-12T11:35:53.053Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 1238 ms
+[2020-12-12T11:35:53.053Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-12-12T11:35:53.053Z] [org.hibernate.jpa.internal.util.LogHelper] [task-1] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-12T11:35:53.053Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-12T11:35:53.053Z] [org.hibernate.Version] [task-1] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.23.Final
+[2020-12-12T11:35:53.053Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [task-1] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2020-12-12T11:35:53.053Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [110] [INFO ] HikariPool-1 - Starting...
+[2020-12-12T11:35:53.053Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2020-12-12T11:35:54.054Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-12T11:35:54.054Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-12T11:35:54.054Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [51] [INFO ] Triggering deferred initialization of Spring Data repositories…
+[2020-12-12T11:35:54.054Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [123] [INFO ] HikariPool-1 - Start completed.
+[2020-12-12T11:35:54.054Z] [org.hibernate.dialect.Dialect] [task-1] [170] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-12T11:35:55.055Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [task-1] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-12-12T11:35:55.055Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [task-1] [434] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-12T11:35:55.055Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [55] [INFO ] Spring Data repositories initialized!
+[2020-12-12T11:35:55.055Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started EmployeePayrollAppApplication in 3.32 seconds (JVM running for 4.776)
+[2020-12-12T11:36:07.007Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-12-12T11:36:07.007Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2020-12-12T11:36:07.007Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2020-12-12T11:36:07.007Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-1] [20] [INFO ] Client Request Method : GET
+[2020-12-12T11:36:07.007Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-1] [27] [INFO ] Server Response Status Code: 200
+[2020-12-12T11:36:20.020Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-3] [20] [INFO ] Client Request Method : POST
+[2020-12-12T11:36:20.020Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-3] [27] [INFO ] Server Response Status Code: 200
+[2020-12-12T11:36:31.031Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-4] [20] [INFO ] Client Request Method : GET
+[2020-12-12T11:36:31.031Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-4] [27] [INFO ] Server Response Status Code: 200
+[2020-12-12T15:18:42.042Z] [com.zaxxer.hikari.pool.HikariPool$HouseKeeper] [HikariPool-1 housekeeper] [787] [WARN ] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h38m18s240ms26µs100ns).
+[2020-12-12T15:19:49.049Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(10)-127.0.0.1] [159] [INFO ] Application shutdown requested.
+[2020-12-12T15:19:49.049Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [RMI TCP Connection(10)-127.0.0.1] [648] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-12T15:19:49.049Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(10)-127.0.0.1] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-12-12T15:19:49.049Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(10)-127.0.0.1] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2020-12-12T15:19:49.049Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(10)-127.0.0.1] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2020-12-12T15:19:56.056Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting EmployeePayrollAppApplication using Java 11.0.8 on MSI with PID 17032 (C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp\target\classes started by aaada in C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp)
+[2020-12-12T15:19:56.056Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.1.6.Final
+[2020-12-12T15:19:56.056Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2020-12-12T15:19:56.056Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-12-12T15:19:56.056Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-12-12T15:19:56.056Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-12T15:19:56.056Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ] Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+[2020-12-12T15:19:57.057Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2020-12-12T15:19:57.057Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-12T15:19:57.057Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2020-12-12T15:19:57.057Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-12T15:19:57.057Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-12-12T15:19:57.057Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 1240 ms
+[2020-12-12T15:19:57.057Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-12-12T15:19:57.057Z] [org.hibernate.jpa.internal.util.LogHelper] [task-1] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-12T15:19:57.057Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-12T15:19:57.057Z] [org.hibernate.Version] [task-1] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.23.Final
+[2020-12-12T15:19:57.057Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [task-1] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2020-12-12T15:19:57.057Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [110] [INFO ] HikariPool-1 - Starting...
+[2020-12-12T15:19:58.058Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2020-12-12T15:19:58.058Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-12T15:19:58.058Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-12T15:19:58.058Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [51] [INFO ] Triggering deferred initialization of Spring Data repositories…
+[2020-12-12T15:19:58.058Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [123] [INFO ] HikariPool-1 - Start completed.
+[2020-12-12T15:19:58.058Z] [org.hibernate.dialect.Dialect] [task-1] [170] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-12T15:19:59.059Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [task-1] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-12-12T15:19:59.059Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [task-1] [434] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-12T15:19:59.059Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [55] [INFO ] Spring Data repositories initialized!
+[2020-12-12T15:19:59.059Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started EmployeePayrollAppApplication in 3.255 seconds (JVM running for 4.663)
+[2020-12-12T15:20:03.003Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-12-12T15:20:03.003Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2020-12-12T15:20:03.003Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [547] [INFO ] Completed initialization in 1 ms
+[2020-12-12T15:20:03.003Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-2] [20] [INFO ] Client Request Method : GET
+[2020-12-12T15:20:04.004Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-2] [27] [INFO ] Server Response Status Code: 200
+[2020-12-12T15:20:47.047Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(4)-127.0.0.1] [159] [INFO ] Application shutdown requested.
+[2020-12-12T15:20:48.048Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [RMI TCP Connection(4)-127.0.0.1] [648] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-12T15:20:48.048Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(4)-127.0.0.1] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-12-12T15:20:48.048Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(4)-127.0.0.1] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2020-12-12T15:20:48.048Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(4)-127.0.0.1] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2020-12-12T15:20:55.055Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting EmployeePayrollAppApplication using Java 11.0.8 on MSI with PID 7084 (C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp\target\classes started by aaada in C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp)
+[2020-12-12T15:20:55.055Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.1.6.Final
+[2020-12-12T15:20:55.055Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2020-12-12T15:20:55.055Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-12-12T15:20:55.055Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-12-12T15:20:56.056Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-12T15:20:56.056Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ] Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+[2020-12-12T15:20:56.056Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2020-12-12T15:20:56.056Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-12T15:20:56.056Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2020-12-12T15:20:56.056Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-12T15:20:57.057Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-12-12T15:20:57.057Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 1223 ms
+[2020-12-12T15:20:57.057Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-12-12T15:20:57.057Z] [org.hibernate.jpa.internal.util.LogHelper] [task-1] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-12T15:20:57.057Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-12T15:20:57.057Z] [org.hibernate.Version] [task-1] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.23.Final
+[2020-12-12T15:20:57.057Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [task-1] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2020-12-12T15:20:57.057Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [110] [INFO ] HikariPool-1 - Starting...
+[2020-12-12T15:20:57.057Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2020-12-12T15:20:57.057Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-12T15:20:57.057Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-12T15:20:57.057Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [51] [INFO ] Triggering deferred initialization of Spring Data repositories…
+[2020-12-12T15:20:57.057Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [123] [INFO ] HikariPool-1 - Start completed.
+[2020-12-12T15:20:57.057Z] [org.hibernate.dialect.Dialect] [task-1] [170] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-12T15:20:58.058Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [task-1] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-12-12T15:20:58.058Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [task-1] [434] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-12T15:20:58.058Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [55] [INFO ] Spring Data repositories initialized!
+[2020-12-12T15:20:58.058Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started EmployeePayrollAppApplication in 3.272 seconds (JVM running for 4.633)
+[2020-12-12T15:21:02.002Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-12-12T15:21:02.002Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2020-12-12T15:21:02.002Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2020-12-12T15:21:02.002Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-1] [20] [INFO ] Client Request Method : GET
+[2020-12-12T15:21:02.002Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-1] [27] [INFO ] Server Response Status Code: 200
+[2020-12-12T15:21:24.024Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-3] [20] [INFO ] Client Request Method : GET
+[2020-12-12T15:21:24.024Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-3] [27] [INFO ] Server Response Status Code: 200
+[2020-12-12T15:46:42.042Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(30)-127.0.0.1] [159] [INFO ] Application shutdown requested.
+[2020-12-12T15:46:42.042Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [RMI TCP Connection(30)-127.0.0.1] [648] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-12T15:46:42.042Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(30)-127.0.0.1] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-12-12T15:46:42.042Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(30)-127.0.0.1] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2020-12-12T15:46:42.042Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(30)-127.0.0.1] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2020-12-12T15:49:00.000Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting EmployeePayrollAppApplication using Java 11.0.8 on MSI with PID 11620 (C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp\target\classes started by aaada in C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp)
+[2020-12-12T15:49:00.000Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.1.6.Final
+[2020-12-12T15:49:00.000Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2020-12-12T15:49:00.000Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-12-12T15:49:00.000Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-12-12T15:49:01.001Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-12T15:49:01.001Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ] Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+[2020-12-12T15:49:02.002Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2020-12-12T15:49:02.002Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-12T15:49:02.002Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2020-12-12T15:49:02.002Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-12T15:49:02.002Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-12-12T15:49:02.002Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 1277 ms
+[2020-12-12T15:49:02.002Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-12-12T15:49:02.002Z] [org.hibernate.jpa.internal.util.LogHelper] [task-1] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-12T15:49:02.002Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-12T15:49:02.002Z] [org.hibernate.Version] [task-1] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.23.Final
+[2020-12-12T15:49:02.002Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [task-1] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2020-12-12T15:49:02.002Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [110] [INFO ] HikariPool-1 - Starting...
+[2020-12-12T15:49:02.002Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2020-12-12T15:49:02.002Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-12T15:49:02.002Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-12T15:49:02.002Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [51] [INFO ] Triggering deferred initialization of Spring Data repositories…
+[2020-12-12T15:49:02.002Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [123] [INFO ] HikariPool-1 - Start completed.
+[2020-12-12T15:49:03.003Z] [org.hibernate.dialect.Dialect] [task-1] [170] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-12T15:49:04.004Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [task-1] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-12-12T15:49:04.004Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [task-1] [434] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-12T15:49:04.004Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [55] [INFO ] Spring Data repositories initialized!
+[2020-12-12T15:49:04.004Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started EmployeePayrollAppApplication in 3.927 seconds (JVM running for 5.339)
+[2020-12-12T15:49:08.008Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-12-12T15:49:08.008Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2020-12-12T15:49:08.008Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [547] [INFO ] Completed initialization in 1 ms
+[2020-12-12T15:49:08.008Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-2] [20] [INFO ] Client Request Method : GET
+[2020-12-12T15:49:09.009Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-2] [27] [INFO ] Server Response Status Code: 200
+[2020-12-12T15:49:32.032Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-3] [20] [INFO ] Client Request Method : POST
+[2020-12-12T15:49:32.032Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-3] [27] [INFO ] Server Response Status Code: 200
+[2020-12-12T15:49:47.047Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-4] [20] [INFO ] Client Request Method : GET
+[2020-12-12T15:49:47.047Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-4] [27] [INFO ] Server Response Status Code: 200
+[2020-12-12T15:50:32.032Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-5] [20] [INFO ] Client Request Method : POST
+[2020-12-12T15:50:32.032Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-5] [27] [INFO ] Server Response Status Code: 200
+[2020-12-12T15:50:41.041Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-6] [20] [INFO ] Client Request Method : GET
+[2020-12-12T15:50:41.041Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-6] [27] [INFO ] Server Response Status Code: 200
+[2020-12-12T15:55:57.057Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(9)-127.0.0.1] [159] [INFO ] Application shutdown requested.
+[2020-12-12T15:55:57.057Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [RMI TCP Connection(9)-127.0.0.1] [648] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-12T15:55:57.057Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(9)-127.0.0.1] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-12-12T15:55:57.057Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(9)-127.0.0.1] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2020-12-12T15:55:57.057Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(9)-127.0.0.1] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2020-12-12T16:06:55.055Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting EmployeePayrollAppApplication using Java 11.0.8 on MSI with PID 1316 (C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp\target\classes started by aaada in C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp)
+[2020-12-12T16:06:55.055Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.1.6.Final
+[2020-12-12T16:06:55.055Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ] No active profile set, falling back to default profiles: default
+[2020-12-12T16:06:55.055Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-12-12T16:06:55.055Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-12-12T16:06:55.055Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-12T16:06:55.055Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ] Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+[2020-12-12T16:06:56.056Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2020-12-12T16:06:56.056Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-12T16:06:56.056Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2020-12-12T16:06:56.056Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-12T16:06:56.056Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-12-12T16:06:56.056Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ] Root WebApplicationContext: initialization completed in 1287 ms
+[2020-12-12T16:06:56.056Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-12-12T16:06:56.056Z] [org.hibernate.jpa.internal.util.LogHelper] [task-1] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-12T16:06:56.056Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-12T16:06:56.056Z] [org.hibernate.Version] [task-1] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.23.Final
+[2020-12-12T16:06:56.056Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [task-1] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2020-12-12T16:06:56.056Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [110] [INFO ] HikariPool-1 - Starting...
+[2020-12-12T16:06:56.056Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2020-12-12T16:06:56.056Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-12T16:06:57.057Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-12T16:06:57.057Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [51] [INFO ] Triggering deferred initialization of Spring Data repositories…
+[2020-12-12T16:06:57.057Z] [com.zaxxer.hikari.HikariDataSource] [task-1] [123] [INFO ] HikariPool-1 - Start completed.
+[2020-12-12T16:06:57.057Z] [org.hibernate.dialect.Dialect] [task-1] [170] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-12T16:06:58.058Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [task-1] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-12-12T16:06:58.058Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [task-1] [434] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-12T16:06:58.058Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [55] [INFO ] Spring Data repositories initialized!
+[2020-12-12T16:06:58.058Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started EmployeePayrollAppApplication in 3.612 seconds (JVM running for 4.96)
+[2020-12-12T16:07:03.003Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-12-12T16:07:03.003Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2020-12-12T16:07:03.003Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2020-12-12T16:07:03.003Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-1] [20] [INFO ] Client Request Method : GET
+[2020-12-12T16:07:03.003Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-1] [27] [INFO ] Server Response Status Code: 200
+[2020-12-12T16:07:18.018Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-3] [20] [INFO ] Client Request Method : POST
+[2020-12-12T16:07:18.018Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-3] [27] [INFO ] Server Response Status Code: 200
+[2020-12-12T16:07:34.034Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-4] [20] [INFO ] Client Request Method : GET
+[2020-12-12T16:07:34.034Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-4] [27] [INFO ] Server Response Status Code: 200
+[2020-12-12T16:09:14.014Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-7] [20] [INFO ] Client Request Method : POST
+[2020-12-12T16:09:14.014Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-7] [27] [INFO ] Server Response Status Code: 200
+[2020-12-12T16:09:23.023Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-8] [20] [INFO ] Client Request Method : GET
+[2020-12-12T16:09:23.023Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-8] [27] [INFO ] Server Response Status Code: 200
+[2020-12-12T16:09:30.030Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-9] [20] [INFO ] Client Request Method : GET
+[2020-12-12T16:09:30.030Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-9] [27] [INFO ] Server Response Status Code: 200
+[2020-12-12T16:10:39.039Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-1] [207] [WARN ] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[2020-12-12T16:10:39.039Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-1] [20] [INFO ] Client Request Method : GET
+[2020-12-12T16:10:39.039Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-1] [27] [INFO ] Server Response Status Code: 405
+[2020-12-12T16:10:46.046Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-3] [20] [INFO ] Client Request Method : PUT
+[2020-12-12T16:10:46.046Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-3] [27] [INFO ] Server Response Status Code: 200
+[2020-12-12T16:10:57.057Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-4] [20] [INFO ] Client Request Method : GET
+[2020-12-12T16:10:57.057Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-4] [27] [INFO ] Server Response Status Code: 200
+[2020-12-12T16:11:52.052Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-5] [20] [INFO ] Client Request Method : DELETE
+[2020-12-12T16:11:52.052Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-5] [27] [INFO ] Server Response Status Code: 200
+[2020-12-12T16:11:59.059Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-6] [20] [INFO ] Client Request Method : GET
+[2020-12-12T16:11:59.059Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-6] [27] [INFO ] Server Response Status Code: 200
