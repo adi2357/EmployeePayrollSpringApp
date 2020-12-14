@@ -1109,3 +1109,10 @@ Caused by: org.hibernate.AnnotationException: List/array has to be annotated wit
 [2020-12-14T17:02:04.004Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started EmployeePayrollApplication in 3.672 seconds (JVM running for 5.31)
 [2020-12-14T17:02:04.004Z] [com.bridgelabz.employeepayrollapp.EmployeePayrollApplication] [restartedMain] [15] [INFO ] Employee Payroll Application Started in COMMON Environment
 [2020-12-14T17:02:04.004Z] [com.bridgelabz.employeepayrollapp.EmployeePayrollApplication] [restartedMain] [17] [INFO ] Employee Payroll DB User is root Environment
+[2020-12-14T17:31:07.007Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting EmployeePayrollApplication using Java 11.0.8 on MSI with PID 28020 (C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp\target\classes started by aaada in C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp)
+[2020-12-14T17:31:07.007Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [56] [DEBUG] Running with Spring Boot v2.4.0, Spring v5.3.1
+[2020-12-14T17:31:07.007Z] [org.springframework.boot.SpringApplication] [restartedMain] [664] [INFO ] The following profiles are active: dev
+[2020-12-14T17:31:09.009Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-14T17:31:10.010Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started EmployeePayrollApplication in 3.304 seconds (JVM running for 4.665)
+[2020-12-14T17:31:10.010Z] [com.bridgelabz.employeepayrollapp.EmployeePayrollApplication] [restartedMain] [15] [INFO ] Employee Payroll Application Started in DEV Environment
+[2020-12-14T17:31:10.010Z] [com.bridgelabz.employeepayrollapp.EmployeePayrollApplication] [restartedMain] [17] [INFO ] Employee Payroll DB User is root Environment
