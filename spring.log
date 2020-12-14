@@ -1179,3 +1179,175 @@ Caused by: org.hibernate.AnnotationException: List/array has to be annotated wit
 [2020-12-14T19:25:03.003Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-4] [207] [WARN ] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollapp.dto.ResponseDTO> com.bridgelabz.employeepayrollapp.controllers.EmployeePayrollController.updateEmployeePayrollData(int,com.bridgelabz.employeepayrollapp.dto.EmployeePayrollDTO): [Field error in object 'employeePayrollDTO' on field 'salary': rejected value [90000]; codes [Max.employeePayrollDTO.salary,Max.salary,Max.long,Max]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayrollDTO.salary,salary]; arguments []; default message [salary],80000]; default message [Salary should be less than Rs. 80,000]] ]
 [2020-12-14T19:25:03.003Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-4] [19] [INFO ] Client Request Method : PUT
 [2020-12-14T19:25:03.003Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-4] [26] [INFO ] Server Response Status Code: 400
+[2020-12-14T19:35:04.004Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting EmployeePayrollApplication using Java 11.0.8 on MSI with PID 5344 (C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp\target\classes started by aaada in C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp)
+[2020-12-14T19:35:04.004Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [56] [DEBUG] Running with Spring Boot v2.4.0, Spring v5.3.1
+[2020-12-14T19:35:04.004Z] [org.springframework.boot.SpringApplication] [restartedMain] [664] [INFO ] The following profiles are active: dev
+[2020-12-14T19:35:05.005Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-14T19:35:07.007Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started EmployeePayrollApplication in 3.268 seconds (JVM running for 4.6)
+[2020-12-14T19:35:07.007Z] [com.bridgelabz.employeepayrollapp.EmployeePayrollApplication] [restartedMain] [15] [INFO ] Employee Payroll Application Started in DEV Environment
+[2020-12-14T19:35:07.007Z] [com.bridgelabz.employeepayrollapp.EmployeePayrollApplication] [restartedMain] [17] [INFO ] Employee Payroll DB User is payrolluser Environment
+[2020-12-14T19:35:14.014Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-1] [19] [INFO ] Client Request Method : PUT
+[2020-12-14T19:35:14.014Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-1] [207] [WARN ] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollapp.dto.ResponseDTO> com.bridgelabz.employeepayrollapp.controllers.EmployeePayrollController.updateEmployeePayrollData(int,com.bridgelabz.employeepayrollapp.dto.EmployeePayrollDTO): [Field error in object 'employeePayrollDTO' on field 'salary': rejected value [90000]; codes [Max.employeePayrollDTO.salary,Max.salary,Max.long,Max]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayrollDTO.salary,salary]; arguments []; default message [salary],80000]; default message [Salary should be less than Rs. 80,000]] ]
+[2020-12-14T19:35:23.023Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-4] [19] [INFO ] Client Request Method : PUT
+[2020-12-14T19:35:23.023Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-4] [207] [WARN ] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollapp.dto.ResponseDTO> com.bridgelabz.employeepayrollapp.controllers.EmployeePayrollController.updateEmployeePayrollData(int,com.bridgelabz.employeepayrollapp.dto.EmployeePayrollDTO) with 2 errors: [Field error in object 'employeePayrollDTO' on field 'salary': rejected value [90000]; codes [Max.employeePayrollDTO.salary,Max.salary,Max.long,Max]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayrollDTO.salary,salary]; arguments []; default message [salary],80000]; default message [Salary should be less than Rs. 80,000]] [Field error in object 'employeePayrollDTO' on field 'name': rejected value [kristen Mark]; codes [Pattern.employeePayrollDTO.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayrollDTO.name,name]; arguments []; default message [name],[Ljavax.validation.constraints.Pattern$Flag;@33a90726,^[A-Z]{1}[a-zA-Z\s]{2,}([ ][A-Z]{1}[a-zA-Z\s]{2,})?$]; default message [Employee name is Invalid]] ]
+[2020-12-14T19:35:52.052Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-6] [19] [INFO ] Client Request Method : GET
+[2020-12-14T19:35:53.053Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-6] [26] [INFO ] Server Response Status Code: 200
+[2020-12-14T19:36:09.009Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-7] [19] [INFO ] Client Request Method : GET
+[2020-12-14T19:36:09.009Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-7] [207] [WARN ] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "null"]
+[2020-12-14T19:36:09.009Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-7] [19] [INFO ] Client Request Method : GET
+[2020-12-14T19:36:09.009Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-7] [26] [INFO ] Server Response Status Code: 400
+[2020-12-14T19:37:54.054Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-9] [19] [INFO ] Client Request Method : GET
+[2020-12-14T19:37:54.054Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-9] [26] [INFO ] Server Response Status Code: 200
+[2020-12-14T19:38:00.000Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-10] [19] [INFO ] Client Request Method : GET
+[2020-12-14T19:38:00.000Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-10] [175] [ERROR] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.util.NoSuchElementException: No value present] with root cause
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:148)
+	at com.bridgelabz.employeepayrollapp.services.EmployeePayrollService.getEmployeePayrollDataById(EmployeePayrollService.java:30)
+	at com.bridgelabz.employeepayrollapp.controllers.EmployeePayrollController.getEmployeePayrollData(EmployeePayrollController.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[2020-12-14T19:38:00.000Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-10] [19] [INFO ] Client Request Method : GET
+[2020-12-14T19:38:00.000Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-10] [26] [INFO ] Server Response Status Code: 500
+[2020-12-14T19:38:13.013Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-1] [19] [INFO ] Client Request Method : GET
+[2020-12-14T19:38:13.013Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-1] [26] [INFO ] Server Response Status Code: 200
+[2020-12-14T19:38:32.032Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-3] [19] [INFO ] Client Request Method : GET
+[2020-12-14T19:38:32.032Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-3] [26] [INFO ] Server Response Status Code: 404
+[2020-12-14T19:38:32.032Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-3] [19] [INFO ] Client Request Method : GET
+[2020-12-14T19:38:32.032Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-3] [26] [INFO ] Server Response Status Code: 404
+[2020-12-14T19:38:41.041Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-4] [207] [WARN ] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[2020-12-14T19:38:41.041Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-4] [19] [INFO ] Client Request Method : GET
+[2020-12-14T19:38:41.041Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-4] [26] [INFO ] Server Response Status Code: 405
+[2020-12-14T19:38:48.048Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-5] [19] [INFO ] Client Request Method : PUT
+[2020-12-14T19:38:48.048Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-5] [26] [INFO ] Server Response Status Code: 404
+[2020-12-14T19:38:48.048Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-5] [19] [INFO ] Client Request Method : PUT
+[2020-12-14T19:38:48.048Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-5] [26] [INFO ] Server Response Status Code: 404
+[2020-12-14T19:38:52.052Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-6] [19] [INFO ] Client Request Method : PUT
+[2020-12-14T19:38:52.052Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-6] [207] [WARN ] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollapp.dto.ResponseDTO> com.bridgelabz.employeepayrollapp.controllers.EmployeePayrollController.updateEmployeePayrollData(int,com.bridgelabz.employeepayrollapp.dto.EmployeePayrollDTO): [Field error in object 'employeePayrollDTO' on field 'salary': rejected value [90000]; codes [Max.employeePayrollDTO.salary,Max.salary,Max.long,Max]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayrollDTO.salary,salary]; arguments []; default message [salary],80000]; default message [Salary should be less than Rs. 80,000]] ]
+[2020-12-14T20:00:20.020Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting EmployeePayrollApplication using Java 11.0.8 on MSI with PID 23164 (C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp\target\classes started by aaada in C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp)
+[2020-12-14T20:00:20.020Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [56] [DEBUG] Running with Spring Boot v2.4.0, Spring v5.3.1
+[2020-12-14T20:00:20.020Z] [org.springframework.boot.SpringApplication] [restartedMain] [664] [INFO ] The following profiles are active: dev
+[2020-12-14T20:00:22.022Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-14T20:00:23.023Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started EmployeePayrollApplication in 3.331 seconds (JVM running for 4.728)
+[2020-12-14T20:00:23.023Z] [com.bridgelabz.employeepayrollapp.EmployeePayrollApplication] [restartedMain] [15] [INFO ] Employee Payroll Application Started in DEV Environment
+[2020-12-14T20:00:23.023Z] [com.bridgelabz.employeepayrollapp.EmployeePayrollApplication] [restartedMain] [17] [INFO ] Employee Payroll DB User is payrolluser Environment
+[2020-12-14T20:00:36.036Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-1] [207] [WARN ] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+[2020-12-14T20:00:36.036Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-1] [19] [INFO ] Client Request Method : PUT
+[2020-12-14T20:00:36.036Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-1] [26] [INFO ] Server Response Status Code: 405
+[2020-12-14T20:00:40.040Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-3] [19] [INFO ] Client Request Method : GET
+[2020-12-14T20:00:40.040Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-3] [175] [ERROR] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollException: Employee Not Found] with root cause
+com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollException: Employee Not Found
+	at com.bridgelabz.employeepayrollapp.services.EmployeePayrollService.getEmployeePayrollDataById(EmployeePayrollService.java:36)
+	at com.bridgelabz.employeepayrollapp.controllers.EmployeePayrollController.getEmployeePayrollData(EmployeePayrollController.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[2020-12-14T20:00:40.040Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-3] [19] [INFO ] Client Request Method : GET
+[2020-12-14T20:00:40.040Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-3] [26] [INFO ] Server Response Status Code: 500
+[2020-12-14T20:05:19.019Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting EmployeePayrollApplication using Java 11.0.8 on MSI with PID 26244 (C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp\target\classes started by aaada in C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp)
+[2020-12-14T20:05:19.019Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [56] [DEBUG] Running with Spring Boot v2.4.0, Spring v5.3.1
+[2020-12-14T20:05:19.019Z] [org.springframework.boot.SpringApplication] [restartedMain] [664] [INFO ] The following profiles are active: dev
+[2020-12-14T20:05:21.021Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-14T20:05:22.022Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started EmployeePayrollApplication in 3.275 seconds (JVM running for 4.663)
+[2020-12-14T20:05:22.022Z] [com.bridgelabz.employeepayrollapp.EmployeePayrollApplication] [restartedMain] [15] [INFO ] Employee Payroll Application Started in DEV Environment
+[2020-12-14T20:05:22.022Z] [com.bridgelabz.employeepayrollapp.EmployeePayrollApplication] [restartedMain] [17] [INFO ] Employee Payroll DB User is payrolluser Environment
+[2020-12-14T20:05:27.027Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-1] [19] [INFO ] Client Request Method : GET
+[2020-12-14T20:05:27.027Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-1] [207] [WARN ] Resolved [com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollException: Employee Not Found]
+[2020-12-14T20:05:38.038Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-4] [19] [INFO ] Client Request Method : DELETE
+[2020-12-14T20:05:38.038Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-4] [207] [WARN ] Resolved [com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollException: Employee Not Found]
+[2020-12-14T20:05:50.050Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-6] [19] [INFO ] Client Request Method : PUT
+[2020-12-14T20:05:51.051Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-6] [207] [WARN ] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollapp.dto.ResponseDTO> com.bridgelabz.employeepayrollapp.controllers.EmployeePayrollController.updateEmployeePayrollData(int,com.bridgelabz.employeepayrollapp.dto.EmployeePayrollDTO): [Field error in object 'employeePayrollDTO' on field 'salary': rejected value [90000]; codes [Max.employeePayrollDTO.salary,Max.salary,Max.long,Max]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayrollDTO.salary,salary]; arguments []; default message [salary],80000]; default message [Salary should be less than Rs. 80,000]] ]
