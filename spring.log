@@ -5433,3 +5433,14 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'id' in where clause i
 [2020-12-22T01:43:18.018Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-3] [26] [INFO ] Server Response Status Code: 200
 [2020-12-22T01:43:28.028Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-4] [19] [INFO ] Client Request Method : GET
 [2020-12-22T01:43:28.028Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-4] [26] [INFO ] Server Response Status Code: 200
+[2020-12-22T01:51:03.003Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting EmployeePayrollApplication using Java 11.0.8 on MSI with PID 16520 (C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp\target\classes started by aaada in C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp)
+[2020-12-22T01:51:03.003Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [56] [DEBUG] Running with Spring Boot v2.4.0, Spring v5.3.1
+[2020-12-22T01:51:03.003Z] [org.springframework.boot.SpringApplication] [restartedMain] [664] [INFO ] The following profiles are active: dev
+[2020-12-22T01:51:04.004Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-22T01:51:06.006Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started EmployeePayrollApplication in 3.451 seconds (JVM running for 4.891)
+[2020-12-22T01:51:06.006Z] [com.bridgelabz.employeepayrollapp.EmployeePayrollApplication] [restartedMain] [15] [INFO ] Employee Payroll Application Started in DEV Environment
+[2020-12-22T01:51:06.006Z] [com.bridgelabz.employeepayrollapp.EmployeePayrollApplication] [restartedMain] [17] [INFO ] Employee Payroll DB User is payrolluser Environment
+[2020-12-22T01:53:15.015Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-1] [19] [INFO ] Client Request Method : GET
+[2020-12-22T01:53:16.016Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-1] [26] [INFO ] Server Response Status Code: 200
+[2020-12-22T01:53:23.023Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-2] [19] [INFO ] Client Request Method : GET
+[2020-12-22T01:53:23.023Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-2] [26] [INFO ] Server Response Status Code: 200
