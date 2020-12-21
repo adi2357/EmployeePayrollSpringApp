@@ -13,9 +13,9 @@ import com.bridgelabz.employeepayrollapp.repository.EmployeeRepository;
 
 @Service
 public class EmployeePayrollService implements IEmployeePayrollService {
-	
+
 	private List<EmployeePayrollData> employeeDataList = new ArrayList<>();
-	
+
 	@Autowired
 	private EmployeeRepository employeeRepository;
 
@@ -23,18 +23,18 @@ public class EmployeePayrollService implements IEmployeePayrollService {
 	public List<EmployeePayrollData> getEmployeePayrollData() {
 		employeeDataList.clear();
 		employeeRepository.findAll().forEach(employee -> employeeDataList.add(employee));
-		 return (List<EmployeePayrollData>) employeeRepository.findAll();
+		return (List<EmployeePayrollData>) employeeRepository.findAll();
 	}
 
 	@Override
 	public EmployeePayrollData getEmployeePayrollDataById(int empId) {
-		EmployeePayrollData employeePayrollData = employeeDataList.stream().filter(employeeData -> employeeData.getId() == empId)
-								 .findFirst().orElse(null);
-		if(employeePayrollData != null) {
+		EmployeePayrollData employeePayrollData = employeeDataList.stream()
+				.filter(employeeData -> employeeData.getId() == empId).findFirst().orElse(null);
+		if (employeePayrollData != null) {
 			return employeeRepository.findById(empId).get();
 		} else {
 			throw new EmployeePayrollException("Employee Not Found");
-		}		
+		}
 	}
 
 	@Override
@@ -48,7 +48,7 @@ public class EmployeePayrollService implements IEmployeePayrollService {
 	@Override
 	public EmployeePayrollData updateEmployeePayrollData(int empId, EmployeePayrollDTO employeePayrollDTO) {
 		EmployeePayrollData employeeData = this.getEmployeePayrollDataById(empId);
-		if(employeeData != null) {
+		if (employeeData != null) {
 			employeeDataList.remove(employeeData);
 			deleteEmployeePayrolllData(empId);
 			employeeData.setName(employeePayrollDTO.name);
@@ -67,7 +67,7 @@ public class EmployeePayrollService implements IEmployeePayrollService {
 	@Override
 	public void deleteEmployeePayrolllData(int empId) {
 		EmployeePayrollData employeeData = this.getEmployeePayrollDataById(empId);
-		if(employeeData != null) {
+		if (employeeData != null) {
 			employeeDataList.remove(employeeData);
 		}
 		employeeRepository.deleteById(empId);
