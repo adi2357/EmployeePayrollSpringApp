@@ -1,8 +1,6 @@
 package com.bridgelabz.employeepayrollapp.services;
 
 import java.util.List;
-import java.util.Optional;
-
 import com.bridgelabz.employeepayrollapp.dto.EmployeePayrollDTO;
 import com.bridgelabz.employeepayrollapp.model.EmployeePayrollData;
 
@@ -17,4 +15,6 @@ public interface IEmployeePayrollService {
 	EmployeePayrollData updateEmployeePayrollData(int empId, EmployeePayrollDTO empPayrollDTO);
 
 	void deleteEmployeePayrolllData(int empId);
+	
+	List<EmployeePayrollData> getEmployeesByDepartment(String department);
 }

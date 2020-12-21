@@ -5169,3 +5169,267 @@ EmployeePayrollDTO(name=Akshay Pant, salary=30000, profilePicture=profile7.jpg, 
 [2020-12-22T01:10:27.027Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-3] [26] [INFO ] Server Response Status Code: 200
 [2020-12-22T01:10:33.033Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-4] [19] [INFO ] Client Request Method : GET
 [2020-12-22T01:10:33.033Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-4] [26] [INFO ] Server Response Status Code: 200
+[2020-12-22T01:13:40.040Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting EmployeePayrollApplication using Java 11.0.8 on MSI with PID 25020 (C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp\target\classes started by aaada in C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp)
+[2020-12-22T01:13:40.040Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [56] [DEBUG] Running with Spring Boot v2.4.0, Spring v5.3.1
+[2020-12-22T01:13:40.040Z] [org.springframework.boot.SpringApplication] [restartedMain] [664] [INFO ] The following profiles are active: dev
+[2020-12-22T01:13:42.042Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-22T01:13:43.043Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started EmployeePayrollApplication in 3.252 seconds (JVM running for 4.617)
+[2020-12-22T01:13:43.043Z] [com.bridgelabz.employeepayrollapp.EmployeePayrollApplication] [restartedMain] [15] [INFO ] Employee Payroll Application Started in DEV Environment
+[2020-12-22T01:13:43.043Z] [com.bridgelabz.employeepayrollapp.EmployeePayrollApplication] [restartedMain] [17] [INFO ] Employee Payroll DB User is payrolluser Environment
+[2020-12-22T01:13:49.049Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-2] [19] [INFO ] Client Request Method : GET
+[2020-12-22T01:13:49.049Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-2] [26] [INFO ] Server Response Status Code: 200
+[2020-12-22T01:34:24.024Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting EmployeePayrollApplication using Java 11.0.8 on MSI with PID 2400 (C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp\target\classes started by aaada in C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp)
+[2020-12-22T01:34:24.024Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [56] [DEBUG] Running with Spring Boot v2.4.0, Spring v5.3.1
+[2020-12-22T01:34:24.024Z] [org.springframework.boot.SpringApplication] [restartedMain] [664] [INFO ] The following profiles are active: dev
+[2020-12-22T01:34:26.026Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-22T01:34:27.027Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started EmployeePayrollApplication in 3.51 seconds (JVM running for 4.839)
+[2020-12-22T01:34:27.027Z] [com.bridgelabz.employeepayrollapp.EmployeePayrollApplication] [restartedMain] [15] [INFO ] Employee Payroll Application Started in DEV Environment
+[2020-12-22T01:34:27.027Z] [com.bridgelabz.employeepayrollapp.EmployeePayrollApplication] [restartedMain] [17] [INFO ] Employee Payroll DB User is payrolluser Environment
+[2020-12-22T01:34:37.037Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-2] [19] [INFO ] Client Request Method : GET
+[2020-12-22T01:34:37.037Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-2] [26] [INFO ] Server Response Status Code: 200
+[2020-12-22T01:35:44.044Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-5] [19] [INFO ] Client Request Method : POST
+[2020-12-22T01:35:44.044Z] [com.bridgelabz.employeepayrollapp.controllers.EmployeePayrollController] [http-nio-8080-exec-5] [54] [INFO ] EmployeePayrollDTO : 
+EmployeePayrollDTO(name=Akshay Pant, salary=30000, profilePicture=profile7.jpg, departments=[Sales, Marketing], startDate=2020-11-30, gender=male, notes=employee added)
+[2020-12-22T01:35:44.044Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-5] [26] [INFO ] Server Response Status Code: 200
+[2020-12-22T01:36:15.015Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-6] [19] [INFO ] Client Request Method : POST
+[2020-12-22T01:36:15.015Z] [com.bridgelabz.employeepayrollapp.controllers.EmployeePayrollController] [http-nio-8080-exec-6] [54] [INFO ] EmployeePayrollDTO : 
+EmployeePayrollDTO(name=Harshit Pant, salary=40000, profilePicture=profile7.jpg, departments=[Sales, Marketing, HR], startDate=2020-10-30, gender=male, notes=employee added)
+[2020-12-22T01:36:15.015Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-6] [26] [INFO ] Server Response Status Code: 200
+[2020-12-22T01:36:23.023Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-7] [19] [INFO ] Client Request Method : GET
+[2020-12-22T01:36:23.023Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-7] [26] [INFO ] Server Response Status Code: 200
+[2020-12-22T01:36:41.041Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-8] [19] [INFO ] Client Request Method : GET
+[2020-12-22T01:36:41.041Z] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] [http-nio-8080-exec-8] [142] [ERROR] Column 'id' in where clause is ambiguous
+[2020-12-22T01:36:41.041Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-8] [175] [ERROR] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not extract ResultSet; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not extract ResultSet] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Column 'id' in where clause is ambiguous
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:57)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2304)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2057)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2019)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:948)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:349)
+	at org.hibernate.loader.Loader.doList(Loader.java:2850)
+	at org.hibernate.loader.Loader.doList(Loader.java:2832)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2664)
+	at org.hibernate.loader.Loader.list(Loader.java:2659)
+	at org.hibernate.loader.custom.CustomLoader.list(CustomLoader.java:338)
+	at org.hibernate.internal.SessionImpl.listCustomQuery(SessionImpl.java:2141)
+	at org.hibernate.internal.AbstractSharedSessionContract.list(AbstractSharedSessionContract.java:1163)
+	at org.hibernate.query.internal.NativeQueryImpl.doList(NativeQueryImpl.java:173)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1533)
+	at org.hibernate.query.Query.getResultList(Query.java:165)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:126)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:88)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:155)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:143)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:152)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:131)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:134)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy105.findEmployeesByDepartment(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:208)
+	at com.sun.proxy.$Proxy75.findEmployeesByDepartment(Unknown Source)
+	at com.bridgelabz.employeepayrollapp.services.EmployeePayrollService.getEmployeesByDepartment(EmployeePayrollService.java:78)
+	at com.bridgelabz.employeepayrollapp.controllers.EmployeePayrollController.getEmployeePayrollData(EmployeePayrollController.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[2020-12-22T01:36:41.041Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-8] [19] [INFO ] Client Request Method : GET
+[2020-12-22T01:36:41.041Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-8] [26] [INFO ] Server Response Status Code: 500
+[2020-12-22T01:37:56.056Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting EmployeePayrollApplication using Java 11.0.8 on MSI with PID 3200 (C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp\target\classes started by aaada in C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp)
+[2020-12-22T01:37:56.056Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [56] [DEBUG] Running with Spring Boot v2.4.0, Spring v5.3.1
+[2020-12-22T01:37:56.056Z] [org.springframework.boot.SpringApplication] [restartedMain] [664] [INFO ] The following profiles are active: dev
+[2020-12-22T01:37:58.058Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-22T01:37:59.059Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started EmployeePayrollApplication in 3.322 seconds (JVM running for 4.766)
+[2020-12-22T01:37:59.059Z] [com.bridgelabz.employeepayrollapp.EmployeePayrollApplication] [restartedMain] [15] [INFO ] Employee Payroll Application Started in DEV Environment
+[2020-12-22T01:37:59.059Z] [com.bridgelabz.employeepayrollapp.EmployeePayrollApplication] [restartedMain] [17] [INFO ] Employee Payroll DB User is payrolluser Environment
+[2020-12-22T01:38:05.005Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-1] [19] [INFO ] Client Request Method : GET
+[2020-12-22T01:38:05.005Z] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] [http-nio-8080-exec-1] [142] [ERROR] Column 'id' in where clause is ambiguous
+[2020-12-22T01:38:05.005Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [175] [ERROR] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not extract ResultSet; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not extract ResultSet] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Column 'id' in where clause is ambiguous
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:57)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2304)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2057)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2019)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:948)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:349)
+	at org.hibernate.loader.Loader.doList(Loader.java:2850)
+	at org.hibernate.loader.Loader.doList(Loader.java:2832)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2664)
+	at org.hibernate.loader.Loader.list(Loader.java:2659)
+	at org.hibernate.loader.custom.CustomLoader.list(CustomLoader.java:338)
+	at org.hibernate.internal.SessionImpl.listCustomQuery(SessionImpl.java:2141)
+	at org.hibernate.internal.AbstractSharedSessionContract.list(AbstractSharedSessionContract.java:1163)
+	at org.hibernate.query.internal.NativeQueryImpl.doList(NativeQueryImpl.java:173)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1533)
+	at org.hibernate.query.Query.getResultList(Query.java:165)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:126)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:88)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:155)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:143)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:152)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:131)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:134)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy105.findEmployeesByDepartment(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:208)
+	at com.sun.proxy.$Proxy75.findEmployeesByDepartment(Unknown Source)
+	at com.bridgelabz.employeepayrollapp.services.EmployeePayrollService.getEmployeesByDepartment(EmployeePayrollService.java:78)
+	at com.bridgelabz.employeepayrollapp.controllers.EmployeePayrollController.getEmployeePayrollData(EmployeePayrollController.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[2020-12-22T01:38:05.005Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-1] [19] [INFO ] Client Request Method : GET
+[2020-12-22T01:38:05.005Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-1] [26] [INFO ] Server Response Status Code: 500
+[2020-12-22T01:43:03.003Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting EmployeePayrollApplication using Java 11.0.8 on MSI with PID 25780 (C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp\target\classes started by aaada in C:\Users\aaada\Dev\eclipse-workspace\EmployeePayrollApp)
+[2020-12-22T01:43:03.003Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [56] [DEBUG] Running with Spring Boot v2.4.0, Spring v5.3.1
+[2020-12-22T01:43:03.003Z] [org.springframework.boot.SpringApplication] [restartedMain] [664] [INFO ] The following profiles are active: dev
+[2020-12-22T01:43:05.005Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-22T01:43:06.006Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started EmployeePayrollApplication in 3.404 seconds (JVM running for 4.742)
+[2020-12-22T01:43:06.006Z] [com.bridgelabz.employeepayrollapp.EmployeePayrollApplication] [restartedMain] [15] [INFO ] Employee Payroll Application Started in DEV Environment
+[2020-12-22T01:43:06.006Z] [com.bridgelabz.employeepayrollapp.EmployeePayrollApplication] [restartedMain] [17] [INFO ] Employee Payroll DB User is payrolluser Environment
+[2020-12-22T01:43:10.010Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-2] [19] [INFO ] Client Request Method : GET
+[2020-12-22T01:43:10.010Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-2] [26] [INFO ] Server Response Status Code: 200
+[2020-12-22T01:43:18.018Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-3] [19] [INFO ] Client Request Method : GET
+[2020-12-22T01:43:18.018Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-3] [26] [INFO ] Server Response Status Code: 200
+[2020-12-22T01:43:28.028Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-4] [19] [INFO ] Client Request Method : GET
+[2020-12-22T01:43:28.028Z] [com.bridgelabz.employeepayrollapp.interceptors.MyCustomInterceptor] [http-nio-8080-exec-4] [26] [INFO ] Server Response Status Code: 200
